@@ -1,0 +1,14 @@
+site:
+  title: "KobwebCourse"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/kobwebcourse.js"
+      api: "build/libs/kobwebcourse.jar"
+    prod:
+      script: "build/distributions/kobwebcourse.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
